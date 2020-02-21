@@ -174,7 +174,6 @@ Alternatively, restart a service on all webservers:
 Ensure a service is stopped:
 
 .. code-block:: bash
-
     $ ansible webservers -m service -a "name=httpd state=stopped"
 
 .. _gathering_facts:
